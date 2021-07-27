@@ -1,0 +1,122 @@
+#tituloPrincipal h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 80px;
+  color: brown;
+}
+
+#iconoUsuario {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+#iconoUsuario:hover {
+  color: #8f2626;
+}
+
+#navbarSupportedContent .nav-item {
+  margin-left: 25px;
+}
+
+#navbarSupportedContent .nav-link {
+  color: brown;
+  text-transform: uppercase;
+}
+
+#navbarSupportedContent .nav-link:hover {
+  color: brown;
+}
+
+#navbarSupportedContent .dropdown-item {
+  color: brown;
+}
+
+#botonBuscar {
+  color: #212529;
+  border: 1px solid brown;
+}
+
+.btn-outline-success:hover {
+  background-color: tomato;
+}
+
+#galeria img {
+  width: 40%;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+#video video {
+  width: 100%;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10px;
+}
+
+.footer-redes svg {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.contacto {
+  margin: 20px auto;
+}
+
+.boton-contacto {
+  margin: 20px auto;
+  padding: auto;
+}
+
+.boton-contacto button {
+  background-color: brown;
+  border-color: #dedede;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.boton-contacto button:hover {
+  background-color: #7d2121;
+  border-color: #dedede;
+}
+
+textarea {
+  resize: none;
+}
+
+.recetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.texto__nosotros {
+  margin-top: 20px;
+}
+
+.texto__nosotros .subTituloNosotros {
+  background-color: tomato;
+}
+
+.boton {
+  background-color: #ee8296;
+  padding: 40px;
+}
+/*# sourceMappingURL=custon.css.map */

@@ -1,0 +1,19 @@
+.contacto{
+    margin: 20px auto;
+}
+.boton-contacto{
+    margin: 20px auto;
+    padding: auto;
+}
+.boton-contacto button{
+    background-color: brown;
+    border-color: #dedede;
+    transition: all 0.3s;
+}
+.boton-contacto button:hover{
+    background-color: rgb(125, 33, 33);
+    border-color: #dedede;
+}
+textarea{
+    resize: none;
+}
